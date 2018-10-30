@@ -88,7 +88,7 @@
   <configuration>
     <archive>
       <manifestEntries>
-        <Premain-Class>com.example.zipkinservice4.ZipkinService4Application.java</Premain-Class>
+        <Premain-Class>com.example.zipkinservice4.ZipkinService4ApplicationTests.java</Premain-Class>
         <Can-Redefine-Classes>true</Can-Redefine-Classes>
         <Can-Retransform-Classes>true</Can-Retransform-Classes>
       </manifestEntries>
