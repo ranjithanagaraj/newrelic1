@@ -93,10 +93,17 @@
         <Can-Retransform-Classes>true</Can-Retransform-Classes>
       </manifestEntries>
     </archive>
-	   <mainClass>com.example.zipkinservice4.ZipkinService4Application</mainClass>
+	   
   </configuration>
 
 </plugin>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>com.example.zipkinservice4.ZipkinService4Application</mainClass>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
