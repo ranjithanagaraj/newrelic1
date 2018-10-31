@@ -95,6 +95,9 @@
       </manifestEntries>
     </archive>
   </configuration>
+<configuration>
+  <mainClass>com.example.zipkinservice1.ZipkinService1Application</mainClass>
+</configuration>
 </plugin>
 		</plugins>
 	</build>
